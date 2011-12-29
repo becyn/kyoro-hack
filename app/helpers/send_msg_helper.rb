@@ -1,0 +1,2 @@
+module SendMsgHelper
+end
