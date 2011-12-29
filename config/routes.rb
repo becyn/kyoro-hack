@@ -1,4 +1,7 @@
 KyoroHack::Application.routes.draw do
+
+  resources :send_msg, :only => [:new,:create ]
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
